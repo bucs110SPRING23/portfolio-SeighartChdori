@@ -1,0 +1,5 @@
+rate = input("What is the current exchange rate for the Euro to the Dollar?\n")
+amount = input("How much Euro would you like to exchange to the Dollar?\n")
+total = (float(amount) / float(rate))
+result = (total - 3)
+print("This is the amount of currency after the exchange fee:",result,"\nThank you for using our service, Have a nice day!")
