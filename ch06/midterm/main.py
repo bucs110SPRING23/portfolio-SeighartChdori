@@ -1,5 +1,4 @@
 import turtle
-import math
 
 window = turtle.Screen()
 turtle1 = turtle.Turtle()
