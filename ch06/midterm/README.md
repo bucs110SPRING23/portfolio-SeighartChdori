@@ -6,6 +6,12 @@
 
 ## KNOWN BUGS AND INCOMPLETE PARTS *(list any known bugs or non-working parts)*
 
+    None
+
 ## REFERENCES *(any resources you use outside of class materials)*
+
     The documentation for turtle
+
 ## MISCELLANEOUS COMMENTS *(anything else you would like the grader to know)*
+
+    None
