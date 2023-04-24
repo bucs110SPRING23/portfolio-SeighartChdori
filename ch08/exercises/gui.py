@@ -11,16 +11,20 @@ class Player:
 class Object:
   def __init__(self,pnum=2):
     
+    self.height = (x,y)
     self.object_num = pnum 
     self.is_large = True # The object starts off large
     self.stop_movement = True # The object will stop the movement of the player if they collide with it
 
 class Enemy:
+  
   def __init__ (self,pnum=3):
 
-    self.enemy_num = pnum
-    self.is_large = False # The enemy is always small
+
+    self.size = 0 # The enemy is always small
     self.lose_lives = True # If the player collides with the enemy, the player will lose lives
+    self.speed = 0 # The speed of the enemy 
+
 
     if Player.lives == 0 :
       print ("Game Over")
